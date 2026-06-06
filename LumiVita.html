@@ -1086,7 +1086,7 @@
     if (!name) { alert('Please enter your name.'); return; }
     if (!phone && !document.getElementById('contact-email').value) { alert('Please enter a phone number or email.'); return; }
     const waText = encodeURIComponent(`Hi LumiVita! My name is ${name}.\nPhone: ${phone}\nProduct: ${product || 'General Enquiry'}\nMessage: ${message || 'I would like to place an order.'}`);
-    window.open(`https://wa.me/260XXXXXXXXX?text=${waText}`, '_blank');
+    window.open(`https://wa.me/260972394561?text=${waText}`, '_blank');
   }
 
   // Product order buttons — open WhatsApp
@@ -1095,7 +1095,7 @@
       const productName = this.closest('article').querySelector('.product-name').textContent;
       const price = this.closest('article').querySelector('.product-price').textContent;
       const waMsg = encodeURIComponent(`Hi LumiVita! I'd like to order: ${productName} (${price}). Please confirm availability and delivery details.`);
-      window.open(`https://wa.me/260XXXXXXXXX?text=${waMsg}`, '_blank');
+      window.open(`https://wa.me/260972394561?text=${waMsg}`, '_blank');
     });
   });
 </script>
